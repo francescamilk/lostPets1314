@@ -1,0 +1,9 @@
+<h1>Add Pet</h1>
+
+<%= form_with model: @pet do |f| %>
+    <%= f.label :color %>
+    <%= f.text_field :color %>
+    <%= f.label :breed %>
+    <%= f.text_field :breed %>
+    <%= f.submit %>
+<% end %>
